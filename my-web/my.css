@@ -57,6 +57,7 @@ h3 {
   color: #D8DBE2;
   font-size: 18px;
   width: 740px;
+  margin-bottom: 15px;
 }
 
 .img-intr {
@@ -523,9 +524,7 @@ h3 {
 
 /*分欄*/
 body {
-
   background-color: #2b2f3a;
-
 }
 
 #WRAPPER {
