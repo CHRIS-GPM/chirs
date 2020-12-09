@@ -59,6 +59,12 @@ h3 {
   width: 740px;
 }
 
+.img-intr {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
 /*學歷*/
 .ed {
   color: #eceff3;
@@ -359,100 +365,89 @@ h3 {
 }
 
 @keyframes bar1 {
-  from {
-    border-left-width: 0px
+  0% {
+    width: 0%
   }
 
-  to {
-    border-left-width: 250px
+  100% {
+    width: 75%
   }
 }
 
 @keyframes bar2 {
-  from {
-    border-left-width: 0px
+  0% {
+    width: 0%
   }
 
-  to {
-    border-left-width: 280px
+  100% {
+    width: 80%
   }
 }
 
 @keyframes bar3 {
-  from {
-    border-left-width: 0px
+  0% {
+    width: 0%
   }
 
-  to {
-    border-left-width: 300px
+  100% {
+    width: 78%
   }
 }
 
 @keyframes bar4 {
-  from {
-    border-left-width: 0px
+  0% {
+    width: 0%
   }
 
-  to {
-    border-left-width: 315px
+  100% {
+    width: 87%
   }
 }
 
 @keyframes bar5 {
-  from {
-    border-left-width: 0px
+  0% {
+    width: 0%
   }
 
-  to {
-    border-left-width: 340px
+  100% {
+    width: 91%
   }
 }
 
 
 .html {
   animation: bar1 2s ease;
-  border-left-width: 250px;
-  border-left-color: #58a4b0;
-  border-left-style: solid;
-  background-color: #cdcfd3;
+  background-color: #58a4b0;
   border-radius: 20px;
+  width: 75%;
 }
 
 .css {
-  animation: bar1 2s ease;
-  border-left-width: 280px;
-  border-left-color: #f7af9d;
-  border-left-style: solid;
-  background-color: #cdcfd3;
+  animation: bar2 2s ease;
+  background-color: #f7af9d;
   border-radius: 20px;
+  width: 80%;
 }
 
 .js {
-  animation: bar2 2s ease-out;
-  border-left-width: 300px;
-  border-left-color: #c08497;
-  border-left-style: solid;
-  background-color: #cdcfd3;
+  animation: bar3 2s ease;
+  background-color: #c08497;
   border-radius: 20px;
-
+  width: 78%;
 }
 
 .C {
-  animation: bar2 2s ease-out;
-  border-left-width: 315px;
-  border-left-color: #9cafb7;
-  border-left-style: solid;
-  background-color: #cdcfd3;
+  animation: bar4 2s ease;
+  background-color: #9cafb7;
   border-radius: 20px;
+  width: 87%;
 }
 
 .VB {
-  animation: bar2 2s ease-out;
-  border-left-width: 340px;
-  border-left-color: #0d9472;
-  border-left-style: solid;
-  background-color: #cdcfd3;
+  animation: bar5 2s ease;
+  background-color: #0d9472;
   border-radius: 20px;
+  width: 91%;
 }
 
 /*分欄*/
