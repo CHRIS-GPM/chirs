@@ -1,0 +1,138 @@
+.font-gold1 {
+  color: white;
+  font-size: 42px;
+}
+
+.font-gold1:hover {
+  background-color: #58a4b0;
+  width: 200px;
+  font-style: initial;
+}
+
+.font-gold2 {
+  color: #D8DBE2;
+  font-size: 24px;
+
+}
+
+.font-gold3 {
+  color: #D8DBE2;
+  font-size: 28px;
+
+}
+
+.font-gold4 {
+  color: #D8DBE2;
+  font-size: 16px;
+}
+
+.font-gold5 {
+  color: #D8DBE2;
+  font-size: 8px;
+}
+
+.img-my {
+  width: 300px;
+  height: 400px;
+}
+
+.img-my:hover {
+  cursor: pointer;
+}
+
+
+.root-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.img-app {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.container {
+  width: 300px;
+  background-color: #2b2f3a;
+  border-color: white;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+
+  width: 85%;
+  background-color: #58a4b0;
+}
+
+.css {
+  width: 85%;
+  background-color: #f7af9d;
+}
+
+.js {
+  width: 90%;
+  background-color: #c08497;
+}
+
+.C {
+  width: 92%;
+  background-color: #9cafb7;
+}
+
+.VB {
+  width: 91%;
+  background-color: #0d9472;
+}
+
+body {
+
+  background-color: #2b2f3a;
+
+}
+
+#WRAPPER {
+  margin: 50px 50px;
+  width: 900px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+#SIDE {
+  width: 250px;
+  float: left;
+}
+
+#CONTENT {
+  width: auto;
+  margin-left: 200px;
+}
+
+#FOOTER {
+
+  clear: both;
+  /* 當上方的內容使用 float 時，下方的 <div> 會產生重疊上去的問題 */
+  /* 寫 clear:both; 解除浮動就可以解決這個問題 */
+
+  margin: 0 auto;
+
+  width: 900px;
+
+  height: 121px;
+
+  background-image: url(images/down.jpg);
+
+}

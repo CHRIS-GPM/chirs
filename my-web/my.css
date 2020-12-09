@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #cdcfd3;
+  font-weight: bold;
+}
+
+/*主要字體*/
+.font-gold1 {
+  color: white;
+  font-size: 42px;
+  text-shadow: 8px 2px 5px rgb(195, 211, 235);
+}
+
+.font-gold2 {
+  color: #D8DBE2;
+  font-size: 24px;
+  width: 300px;
+  margin-bottom: 10px;
+  text-shadow: 8px 2px 5px rgb(195, 211, 235);
+}
+
+.font-gold3 {
+  color: #D8DBE2;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.font-gold4 {
+  color: #D8DBE2;
+  font-size: 16px;
+  width: 330px;
+}
+
+.font-gold5 {
+  color: #d8dbe27e;
+  font-size: 8px;
+  margin-top: 30px;
+}
+
+.font-gold6 {
+  color: #d8dbe27e;
+  font-size: 8px;
+  padding-bottom: 7px;
+}
+
+.font-gold7 {
+  color: #D8DBE2;
+  font-size: 18px;
+  width: 740px;
+}
+
+/*學歷*/
+.ed {
+  color: #eceff3;
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  margin-top: 30px;
+  width: 350px;
+}
+
+.ed-s {
+  font-size: 13px;
+  color: #58a4b0;
+}
+
+.img-my {
+  width: 300px;
+  height: 400px;
+}
+
+.img-my:hover {
+  cursor: pointer;
+}
+
+
+.root-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+/*個人資料連結圖標設定*/
+.img-app {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.img-app:hover {
+  width: 45px;
+  height: 45px;
+}
+
+/*經歷圖片*/
+.img-act {
+  margin-top: 50px;
+  width: 750px;
+  height: 500px;
+}
+
+.img-act:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+
+/*right-side經歷標題*/
+.accordion {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  background-color: #58a4b0;
+  color: #eceff3;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 750px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #46818a;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #2b2f3a;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*網頁*/
+.img-web {
+  width: 800px;
+  height: 500px;
+  margin: 0 0;
+}
+
+/*愛好*/
+.main {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row>.column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-right: 8px;
+  width: 380px;
+  height: auto;
+}
+
+.content2 {
+  background-color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-right: 10px;
+  width: 380px;
+  height: auto;
+}
+
+.p-hab {
+  margin-bottom: 10px;
+}
+
+.img-habit {
+  width: 350px;
+  height: 200px;
+}
+
+/*百分圓*/
+.p-dirs {
+  margin-left: 20px;
+  margin-right: 50px;
+  color: white;
+  font-family: 微軟雅黑;
+  font-size: 24px;
+  width: 100px;
+}
+
+.p-dir {
+  margin-left: 40px;
+  margin-right: 50px;
+  color: white;
+  font-family: 微軟雅黑;
+  font-size: 24px;
+  width: 100px;
+}
+
+.cir-root {
+  width: 50%;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+.cir-root1 {
+  width: 50%;
+
+}
+
+.cir-root3 {
+  width: 50%;
+  margin-left: 40px;
+  margin-right: 50px;
+
+}
+
+.cir-root4 {
+  width: 50%;
+}
+
+.cir-root svg {
+  transform: rotate(45edg);
+}
+
+.cir-root1 svg {
+  transform: rotate(180edg);
+}
+
+.cir-root3 svg {
+  transform: rotate(45edg);
+}
+
+.cir-root4 svg {
+  transform: rotate(180edg);
+}
+
+.cir-root svg circle {
+  fill: transparent;
+  stroke: #58a4b0;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 310;
+  stroke-dashoffset: 310;
+  animation: cir-run1 3s linear 1;
+  animation-fill-mode: forwards;
+}
+
+.cir-root1 svg circle {
+  fill: transparent;
+  stroke: #f7af9d;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 310;
+  stroke-dashoffset: 310;
+  animation: cir-run2 3s linear 1;
+  animation-fill-mode: forwards;
+}
+
+.cir-root3 svg circle {
+  fill: transparent;
+  stroke: #c08497;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 310;
+  stroke-dashoffset: 310;
+  animation: cir-run3 3s linear 1;
+  animation-fill-mode: forwards;
+}
+
+.cir-root4 svg circle {
+  fill: transparent;
+  stroke: #0d9472;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 310;
+  stroke-dashoffset: 310;
+  animation: cir-run4 3s linear 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cir-run1 {
+  100% {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes cir-run2 {
+  100% {
+    stroke-dashoffset: 30;
+  }
+}
+
+@keyframes cir-run3 {
+  100% {
+    stroke-dashoffset: 80;
+  }
+}
+
+@keyframes cir-run4 {
+  100% {
+    stroke-dashoffset: 120;
+  }
+}
+
+
+
+
+/*程式職能*/
+* {
+  box-sizing: border-box
+}
+
+.container {
+  width: 380px;
+  background-color: #cdcfd3;
+  height: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  height: 20px;
+  text-align: right;
+  font-weight: bolder;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  color: rgba(41, 54, 51, 0.486);
+  z-index: 5;
+}
+
+@keyframes bar1 {
+  from {
+    border-left-width: 0px
+  }
+
+  to {
+    border-left-width: 250px
+  }
+}
+
+@keyframes bar2 {
+  from {
+    border-left-width: 0px
+  }
+
+  to {
+    border-left-width: 280px
+  }
+}
+
+@keyframes bar3 {
+  from {
+    border-left-width: 0px
+  }
+
+  to {
+    border-left-width: 300px
+  }
+}
+
+@keyframes bar4 {
+  from {
+    border-left-width: 0px
+  }
+
+  to {
+    border-left-width: 315px
+  }
+}
+
+@keyframes bar5 {
+  from {
+    border-left-width: 0px
+  }
+
+  to {
+    border-left-width: 340px
+  }
+}
+
+
+.html {
+  animation: bar1 2s ease;
+  border-left-width: 250px;
+  border-left-color: #58a4b0;
+  border-left-style: solid;
+  background-color: #cdcfd3;
+  border-radius: 20px;
+}
+
+.css {
+  animation: bar1 2s ease;
+  border-left-width: 280px;
+  border-left-color: #f7af9d;
+  border-left-style: solid;
+  background-color: #cdcfd3;
+  border-radius: 20px;
+}
+
+.js {
+  animation: bar2 2s ease-out;
+  border-left-width: 300px;
+  border-left-color: #c08497;
+  border-left-style: solid;
+  background-color: #cdcfd3;
+  border-radius: 20px;
+
+}
+
+.C {
+  animation: bar2 2s ease-out;
+  border-left-width: 315px;
+  border-left-color: #9cafb7;
+  border-left-style: solid;
+  background-color: #cdcfd3;
+  border-radius: 20px;
+}
+
+.VB {
+  animation: bar2 2s ease-out;
+  border-left-width: 340px;
+  border-left-color: #0d9472;
+  border-left-style: solid;
+  background-color: #cdcfd3;
+  border-radius: 20px;
+}
+
+/*分欄*/
+body {
+
+  background-color: #2b2f3a;
+
+}
+
+#WRAPPER {
+  margin: 100px 100px;
+  padding: 0 10px;
+  overflow: hidden;
+  display: flex;
+
+}
+
+#SIDE {
+  width: 220px;
+  float: left;
+}
+
+#RIGHT-SIDE {
+  width: auto;
+  display: flex;
+}
+
+#RIGHT-SIDE>hr {
+  height: 2770px;
+  color: #c08497;
+  width: 1px;
+  margin-left: 200px;
+}
+
+.hr-margin {
+  margin-left: 50px;
+}
